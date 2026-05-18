@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# pytest
+.pytest_cache/
+*.pytest_cache*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 环境/配置
+.env
+*.local
+
+# 操作系统
+Thumbs.db
+.DS_Store

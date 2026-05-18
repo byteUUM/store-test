@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m pytest -v)",
+      "Bash(python -m pytest test_home.py -v)",
+      "Bash(python -m pytest -v -k \"not test_tc_login_001_success\")",
+      "Bash(python)",
+      "Bash(python -m pytest --html=report.html --self-contained-html)",
+      "Bash(pip install *)",
+      "Bash(python -m pytest -v --tb=line)"
+    ]
+  }
+}
