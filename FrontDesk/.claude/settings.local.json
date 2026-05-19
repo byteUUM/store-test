@@ -7,7 +7,11 @@
       "Bash(python)",
       "Bash(python -m pytest --html=report.html --self-contained-html)",
       "Bash(pip install *)",
-      "Bash(python -m pytest -v --tb=line)"
+      "Bash(python -m pytest -v --tb=line)",
+      "WebFetch(domain:49.235.61.184)",
+      "Bash(curl -s -v \"http://49.235.61.184/\")",
+      "Bash(curl -s \"http://49.235.61.184/\")",
+      "Bash(curl -s --cookie \"uuid=3b3698c6-5d74-9472-25d3-c8304086d50b; admin_info=null; PHPSESSID=b7b9b6ab6a1209d82f13fe6169f55649\" \"http://49.235.61.184/\")"
     ]
   }
 }
